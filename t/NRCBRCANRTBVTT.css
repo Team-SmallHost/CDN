@@ -1,0 +1,168 @@
+/* ==UserStyle==
+@name        SmallOcean
+@description SmallOcean Ocean Ocean11111
+@match       https://smallhost.us.to/*
+==/UserStyle== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input {
+    border-radius: 0px;
+    padding: 10px 45px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    background: #00a4ff;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.75em;
+    font-size: 16px;
+    background-image: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN);
+    color: #ffffff;
+     animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.simple-container {
+    max-width: 675px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+.simple-print {
+    fill: white;
+    stroke: white;
+}
+.simple-print svg {
+    height: 100%;
+}
+
+.simple-close {
+    color: white;
+    border-color: white;
+}
+
+.simple-ext-info {
+    border-top: 1px solid #aaa;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.75em;
+    font-size: 16px;
+    color: #ffff;
+    font-size: 16px;
+        animation: backInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s; /* don't forget to set a duration! */
+}
+i {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 34px;
+     animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 25px;
+         animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 27px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #D8D8D8;
+    border-top: 1px solid #D8D8D8;
+         animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+hr {
+    height: 1px;
+    background-color: #d8d8d8;
+    border: none;
+    width: 100%;
+    margin: 0px;
+         animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+a[href] {
+    color: #1e8ad6;
+    
+}
+
+a[href]:hover {
+    color: #3ba0e6;
+      animation: heartBeat; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+li {
+    line-height: 1.5em;
+}
+
+aside,
+[class *= "sidebar"],
+[id *= "sidebar"] {
+    max-width: 90%;
+    margin: 0 auto;
+    border: 1px solid lightgrey;
+    padding: 5px 15px;
+}
+
+@media (min-width: 1921px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+.deactivate {
+    animation-name: flash !important;
+    animation-duration: 2s !important;
+    width: 25% !important;
+     animation-iteration-count: infinite !important;
+    
+}
+
+.deactivate:hover {
+    animation-name: flash !important;
+    animation-duration: 0.5s !important;
+    width: 25% !important;
+    animation-iteration-count: infinite !important;
+}
+
+.deactivate:active {
+    animation-name: hinge !important;
+        animation-duration: 5s !important;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+}
